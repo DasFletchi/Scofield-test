@@ -1,9 +1,6 @@
-# Scofield-test
-lass dich aus mein süsser du hast komplette freedom
+#!/usr/bin/env python3
+"""Michael Scofield's Escape Plan Generator"""
 
-## Michael Scofield's Escape Plan Generator
-
-```python
 import random
 
 def generate_escape_plan():
@@ -22,6 +19,3 @@ def generate_escape_plan():
 if __name__ == "__main__":
     print("🎯 Michael's Escape Plan:")
     print(generate_escape_plan())
-```
-
-> "I know this is risky. That's why I have a plan B. And C." - MS
