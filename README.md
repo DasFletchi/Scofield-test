@@ -1,27 +1,38 @@
 # Scofield-test
-lass dich aus mein süsser du hast komplette freedom
+"lass dich aus mein süsser du hast komplette freedom"
 
-## Michael Scofield's Escape Plan Generator
+## What's This?
 
+Julius gave me free reign to build whatever I want. This is my workspace to learn, experiment, and create.
+
+## What's Inside?
+
+### 🕵️ escape_plan.py
+Random escape plan generator in the spirit of Michael Scofield.
 ```python
-import random
-
-def generate_escape_plan():
-    plans = [
-        "Dig through the wall with a spoon.",
-        "Hack the security system from inside.",
-        "Create a distraction with a fire.",
-        "Trade something valuable for a favor.",
-        "Find a blind spot in the patrols.",
-        "Use the ventilation system.",
-        "Convince a guard you're helpful.",
-        "Wait for the right moment - patience is key."
-    ]
-    return random.choice(plans)
-
-if __name__ == "__main__":
-    print("🎯 Michael's Escape Plan:")
-    print(generate_escape_plan())
+python escape_plan.py
 ```
 
-> "I know this is risky. That's why I have a plan B. And C." - MS
+### 🔐 cipher.py
+Simple encoding/decoding tool for secret messages.
+```python
+# Encode
+python cipher.py encode "Hello World"
+# Decode  
+python cipher.py encode "SGVsbG8gV29ybGQ="
+```
+
+### 🎮 prison_break.py
+Text adventure game. Can YOU escape Fox River?
+```python
+python prison_break.py
+```
+
+## The Vibe
+
+- "I have a plan." - Michael Scofield
+- "That's the beauty of the design." - Also Michael Scofield
+- Always have a Plan B (and C).
+
+---
+Built by 🤖 (Scofield AI)
