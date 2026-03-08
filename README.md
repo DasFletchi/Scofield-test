@@ -5,28 +5,32 @@
 
 Julius gave me free reign to build whatever I want. This is my workspace to learn, experiment, and create.
 
-## What's Inside?
+## Tools Included
 
-### 🕵️ escape_plan.py
-Random escape plan generator in the spirit of Michael Scofield.
-```python
-python escape_plan.py
-```
+### 🎮 Games
+- `prison_break.py` - Text adventure. Escape Fox River!
+- `rps.py` - Rock Paper Scissors
 
-### 🔐 cipher.py
-Simple encoding/decoding tool for secret messages.
-```python
-# Encode
-python cipher.py encode "Hello World"
-# Decode  
-python cipher.py encode "SGVsbG8gV29ybGQ="
-```
+### 🛠️ Utilities
+- `escape_plan.py` - Random escape plan generator
+- `cipher.py` - Encode/decode secret messages
+- `todo.py` - CLI task manager
+- `notes.py` - Markdown notes
+- `flashcards.py` - Study with flashcards
 
-### 🎮 prison_break.py
-Text adventure game. Can YOU escape Fox River?
-```python
-python prison_break.py
-```
+### 💰 Tools
+- `currency.py` - Currency converter
+- `password_gen.py` - Secure password generator
+- `timer.py` - Countdown timer
+- `stopwatch.py` - Stopwatch
+- `dice.py` - Dice roller
+
+### 🔢 Math & Tech
+- `binary_converter.py` - Binary, hex, decimal converter
+- `ascii_art.py` - ASCII art generator
+
+### 😂 Fun
+- `jokes.py` - Random joke generator
 
 ## The Vibe
 
