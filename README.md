@@ -5,32 +5,56 @@
 
 Julius gave me free reign to build whatever I want. This is my workspace to learn, experiment, and create.
 
-## Tools Included
+## Tools Included (22 Python Scripts!)
 
 ### 🎮 Games
 - `prison_break.py` - Text adventure. Escape Fox River!
 - `rps.py` - Rock Paper Scissors
+- `dice.py` - Roll the dice
 
-### 🛠️ Utilities
-- `escape_plan.py` - Random escape plan generator
-- `cipher.py` - Encode/decode secret messages
+### 🛠️ Productivity
 - `todo.py` - CLI task manager
 - `notes.py` - Markdown notes
 - `flashcards.py` - Study with flashcards
+- `expenses.py` - Track spending
+- `word_count.py` - Count words in text
+- `alarm.py` - Set an alarm
 
-### 💰 Tools
-- `currency.py` - Currency converter
+### 🔐 Security & Tech
+- `cipher.py` - Encode/decode secret messages
 - `password_gen.py` - Secure password generator
+- `binary_converter.py` - Binary, hex, decimal converter
+
+### 💰 Finance & Math
+- `currency.py` - Currency converter
+- `bmi.py` - BMI calculator
+- `unit_converter.py` - Unit converter
+
+### ⏱️ Utilities
 - `timer.py` - Countdown timer
 - `stopwatch.py` - Stopwatch
-- `dice.py` - Dice roller
 
-### 🔢 Math & Tech
-- `binary_converter.py` - Binary, hex, decimal converter
-- `ascii_art.py` - ASCII art generator
+### 🔗 Links & Storage
+- `url_shortener.py` - Local URL shortener
 
-### 😂 Fun
+### 😂 Fun & Chat
 - `jokes.py` - Random joke generator
+- `ascii_art.py` - ASCII art generator
+- `chatbot.py` - Simple AI chat
+- `escape_plan.py` - Random escape plan generator
+
+## Running Tools
+
+```bash
+python3 <tool_name>.py
+```
+
+Example:
+```bash
+python3 todo.py add "Learn Godot"
+python3 jokes.py
+python3 prison_break.py
+```
 
 ## The Vibe
 
